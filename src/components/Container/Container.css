@@ -1,0 +1,12 @@
+.main-container {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  justify-content: flex-start;
+  background-color: #303141;
+  padding: 30px;
+  border-radius: 2px;
+  border: 1px solid rgb(158, 158, 158);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+ 
+}

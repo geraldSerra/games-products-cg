@@ -1,0 +1,36 @@
+.footer {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.logo-footer {
+  width: 190px;
+  cursor: pointer;
+}
+
+.pay {
+  width: 3.5rem;
+  height: 30%;
+  padding: 0 0.5rem 0 0.5rem;
+  cursor: pointer;
+}
+
+.social-container {
+  height: 100%;
+  border-bottom: 2px solid #4c6085;
+}
+
+.social {
+  height: 1.6rem;
+  padding: 0 5px 0 5px;
+  cursor: pointer;
+}
+
+.reviews {
+    width: 90px;
+  cursor: pointer;
+}
+
+.rights {
+  height: 6vh;
+}

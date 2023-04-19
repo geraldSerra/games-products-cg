@@ -1,0 +1,15 @@
+.BarContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.bar-left {
+  display: flex;
+  width: 20%;
+}
+
+.bar-right {
+  display: flex;
+  flex-grow: 2;
+}

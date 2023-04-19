@@ -1,0 +1,60 @@
+.Bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  height: 35px;
+  background-color: #4c608533;
+  border-radius: 2px;
+  font-size: 0.65rem;
+  padding: 0px 10px 0px 10px;
+}
+
+.Bar div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-align: left;
+}
+
+.Icon {
+  font-size: 1rem;
+}
+
+.sub {
+  font-size: 0.5rem;
+  color: rgba(255, 255, 255, 0.529);
+  margin-bottom: -4px;
+}
+
+.label {
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.text {
+  align-self: flex-start;
+}
+
+.SelectBar {
+  flex-grow: 1;
+  margin: 15px 0px 15px 0px;
+}
+
+.SearchBar {
+  flex-grow: 8;
+  margin: 15px 0px 15px 0px;
+}
+
+.PriceBar {
+  max-width: 120px;
+  flex-grow: 1;
+  margin: 15px 0px 15px 0px;
+}
+
+.ItemType {
+  max-width: 120px;
+  flex-grow: 1;
+  border-left: 1px solid greenyellow;
+  margin: 15px 0px 15px 0px;
+}
