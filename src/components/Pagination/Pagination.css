@@ -1,9 +1,9 @@
-.css-r93niq-MuiButtonBase-root-MuiPaginationItem-root {
+.MuiPaginationItem-page {
   color: white !important;
   border: 0px solid #5762d5 !important;
 }
 
-.css-r93niq-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+.Mui-selected {
   color: #fff !important;
   border: 0px !important;
   background-color: #5762d5 !important;
