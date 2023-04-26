@@ -2,11 +2,25 @@
   display: flex;
   height: fit-content;
   width: fit-content;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #303141;
-  padding: 30px;
-  border-radius: 2px;
+  padding: 2.6rem;
+  border-radius: 4px;
   border: 1px solid rgb(158, 158, 158);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
- 
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.8);
+  gap: 2rem;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 0.65rem;
+}
+
+.label-text {
+  color: rgba(255, 255, 255, 0.5);
 }

@@ -20,7 +20,12 @@ const Card = ({ disponibility, stock, title, price, description, img }) => {
           <Quantity />
         </Grid>
         <Grid container item>
-          <CardContent title={title} price={price} description={description} img={img}/>
+          <CardContent
+            title={title}
+            price={price}
+            description={description}
+            img={img}
+          />
         </Grid>
         <Grid
           container

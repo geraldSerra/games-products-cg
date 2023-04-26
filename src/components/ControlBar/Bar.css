@@ -38,23 +38,19 @@
 
 .SelectBar {
   flex-grow: 1;
-  margin: 15px 0px 15px 0px;
 }
 
 .SearchBar {
   flex-grow: 8;
-  margin: 15px 0px 15px 0px;
 }
 
-.PriceBar {
+.expand-bar {
   max-width: 120px;
   flex-grow: 1;
-  margin: 15px 0px 15px 0px;
 }
 
 .ItemType {
   max-width: 120px;
   flex-grow: 1;
-  border-left: 1px solid greenyellow;
-  margin: 15px 0px 15px 0px;
+  border-left: 1px solid rgb(28, 193, 28);;
 }

@@ -32,14 +32,14 @@ export const SearchBar = () => {
   );
 };
 
-export const PriceBar = () => {
+export const ExpandBar = ({ sub, label }) => {
   return (
-    <div className="PriceBar">
+    <div className="expand-bar">
       <Bar expandIcon>
         <div>
           <div className="label">
-            <div className="sub">Price</div>
-            <div className="text">All</div>
+            <div className="sub">{sub}</div>
+            <div className="text">{label}</div>
           </div>
         </div>
       </Bar>

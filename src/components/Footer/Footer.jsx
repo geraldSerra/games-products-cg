@@ -23,9 +23,10 @@ const Footer = () => {
           container
           justifyContent={"center"}
           sx={{
-            height: "7vh",
+            minHeight: "fit-content",
             bgcolor: "#2B2C3B",
             alignItems: "center",
+            py: ".5rem",
           }}
         >
           <Grid
@@ -67,6 +68,7 @@ const Footer = () => {
           container
           justifyContent={"center"}
           sx={{
+            minHeight: "fit-content",
             height: "8vh",
             alignItems: "center",
           }}
@@ -80,7 +82,9 @@ const Footer = () => {
             md={8}
             lg={8}
             sx={{
+              display: "flex",
               alignItems: "center",
+              flexWrap: "wrap",
             }}
           >
             <img
@@ -105,7 +109,9 @@ const Footer = () => {
           container
           justifyContent={"center"}
           sx={{
+            display: "flex",
             py: "3.5vh",
+            minHeight: "fit-content",
           }}
         >
           <Grid
@@ -175,14 +181,13 @@ const Footer = () => {
                 textAlign="left"
                 component="a"
                 noWrap
-                href=""
                 sx={{
                   display: { md: "flex" },
                   color: "white",
                   fontSize: "14px",
                   fontWeight: 700,
                   textDecoration: "inherit",
-                  pb: 1,
+                  mb: 1,
                 }}
               >
                 More
@@ -244,8 +249,7 @@ const Footer = () => {
               item
               xs={12}
               sm={3}
-              justifyContent={"flex-end"}
-              sx={{ display: "flex" }}
+              sx={{ display: "flex", justifyContent: "flex-start" }}
             >
               <div
                 style={{

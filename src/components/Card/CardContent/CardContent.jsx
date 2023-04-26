@@ -7,7 +7,7 @@ const CardContent = ({ img, title, price, description }) => {
         <img src={img} width="45px" height="45px" />
       </div>
       <div className="title">{title}</div>
-      <div className="price">${price}</div>
+      <div className="price">{price ? `$${price}` : ""}</div>
       <div className="description">{description}</div>
     </div>
   );

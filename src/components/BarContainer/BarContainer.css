@@ -1,12 +1,13 @@
 .BarContainer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 12px;
+  margin: 15px 0 15px 0;
 }
 
 .bar-left {
   display: flex;
-  width: 20%;
 }
 
 .bar-right {

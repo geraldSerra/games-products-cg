@@ -1,7 +1,7 @@
 import "./BarContainer.css";
 import {
   ItemType,
-  PriceBar,
+  ExpandBar,
   SearchBar,
   SelectBar,
 } from "../ControlBar/ControlBar";
@@ -14,7 +14,7 @@ const BarContainer = () => {
       </div>
       <div className="bar-right">
         <SearchBar />
-        <PriceBar />
+        <ExpandBar sub={'Price'} label={"All"}/>
         <ItemType />
       </div>
     </div>
