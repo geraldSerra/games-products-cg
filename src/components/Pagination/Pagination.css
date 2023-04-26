@@ -12,10 +12,8 @@
 .MuiPaginationItem-previousNext {
   border: 1px solid #5762d5 !important;
   margin: 0 12px 0 12px !important;
-}
-
-.css-r93niq-MuiButtonBase-root-MuiPaginationItem-root.Mui-disabled {
   opacity: 1 !important;
+  color: white !important;
 }
 
 .css-1v2lvtn-MuiPaginationItem-root {
